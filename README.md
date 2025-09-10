@@ -17,4 +17,4 @@ sudo usermod -aG docker $USER
 # Verify Docker Installation
 Restart session
 docker ps
-
+# Exercise 2 :Manage Container Lifecycle With Docker
