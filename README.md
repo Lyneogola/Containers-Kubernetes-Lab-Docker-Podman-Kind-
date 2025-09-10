@@ -6,4 +6,15 @@ Ubuntu 22.04 LTS Host
 # Objective
 Install Docker, practice the most commonly used container lifecycle commands, and build a custom container image using a Dockerfile.
 # Steps
+# Install Docker
+curl -fsSL https://get.docker.com/ | sh
+# Enabling Docker To Start on Boot
+sudo systemctl enable --now docker
+# To Check if Docker is running
+sudo systemctl status docker
+# Adding Current User To Docker Group
+sudo usermod -aG docker $USER
+# Verify Docker Installation
+Restart session
+docker ps
 
